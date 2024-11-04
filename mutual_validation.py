@@ -186,10 +186,10 @@ table = table.T
 columns = ['date_dpd','lat_dpd','lon_dpd','area_dpd','tilt_dpd','date_wjl',
            'lat_wjl','lon_wjl','area_wjl','flux_wjl','tilt_wjl','number','CR','consistency']
 
-# the cross_validated dataset
+# the mutually_validated dataset
 df = pd.DataFrame(table,columns = columns)
 
-df.to_excel("cross_validated_tilt_angle_dataset.xlsx",index=False)
+df.to_excel("mutually_validated_tilt_angle_dataset.xlsx",index=False)
 
 
 
